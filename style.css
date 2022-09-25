@@ -1,0 +1,36 @@
+#deals{
+    display: flex;
+    flex-flow: row wrap;
+}
+.sale-item{
+    display: flex;
+    flex-flow:column;
+}
+ .sale-item >img{
+    order: -1;
+    align-self: center;
+ }
+  .sale-item >button{
+    margin-top: auto;
+  }
+  .navbar{
+    background-color: rgb(139, 131, 131);
+    overflow: hidden;
+  }
+  .navbar a{
+    float: left;
+    text-align: center;
+    padding: 15px 15px;
+    font-size: 17px;
+   color: aqua;
+   text-decoration: none;
+  }
+   .navbar a:hover{
+    background-color: #ddd;
+  color: black;
+
+   }
+   .navbar a.active{
+    background-color: #04AA6D;
+  color: white;
+   }
